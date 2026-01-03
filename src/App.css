@@ -1,0 +1,6 @@
+@import "tailwindcss";
+/* @import url('fonts.googleapis.com'); */
+
+@theme {
+    --color-dark-green: #2d6a4f;
+}
