@@ -1,13 +1,14 @@
 import ProductCard from "../components/ProductCard"
 import PageWrapper from "../components/PageWrapper"
 import { useState } from "react"
-import { useSearchParams } from "react-router-dom"
+import { useSearchParams, useNavigate } from "react-router-dom"
 import products from '../data/products.json'
 
 function Products() {
     const [sortBy, setSortBy] = useState("az")
     const [searchParams] = useSearchParams()
     const query = searchParams.get("q") || ""
+    const navigate = useNavigate()
 
     const filteredProducts = products.filter(p => p.name.toLowerCase().includes(query.toLowerCase()))
 
@@ -18,6 +19,10 @@ function Products() {
         if (sortBy === "high") return b.price - a.price
         return 0
     })
+
+    const handleProductClick = (product) => {
+        navigate(`/product/${product.id}`)
+    }
 
     return (
         <PageWrapper>
@@ -51,7 +56,7 @@ function Products() {
                 {/* Products Grid */}
                 <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
                     {sortedProducts.map(product => (
-                        <ProductCard key={product.id} {...product} />
+                        <ProductCard key={product.id} {...product} onClick={() => handleProductClick(product)} />
                     ))}
                 </div>
 

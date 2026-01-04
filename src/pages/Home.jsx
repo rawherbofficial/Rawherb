@@ -1,8 +1,11 @@
 import { useEffect, useState } from 'react'
-import PageWrapper from '../components/PageWrapper'
-
-import ProductCard from '../components/ProductCard'
 import '../App.css'
+import Products from "../data/products.json"
+import { useNavigate } from 'react-router-dom'
+
+import PageWrapper from '../components/PageWrapper'
+import ProductCard from '../components/ProductCard'
+
 
 const images = [
     "banner.webp",
@@ -15,6 +18,7 @@ const images = [
 
 function Home() {
     const [current, setCurrent] = useState(0)
+    const navigate = useNavigate()
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -22,6 +26,10 @@ function Home() {
         }, 4000)
         return () => clearInterval(interval)
     }, [])
+
+    const handleProductClick = (product) => {
+        navigate(`/product/${product.id}`)
+    }
 
     return (
         <PageWrapper>
@@ -60,10 +68,16 @@ function Home() {
                     </h1>
 
                     <div className="grid gap-5 md:gap-x-20 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 place-items-center">
-                        <ProductCard name="Ashwagandha" price={205} image={images[5]} />
-                        <ProductCard name="Wish" price={50} image={images[5]} />
-                        <ProductCard name="Kre" price={10} image={images[5]} />
-                        <ProductCard name="Hik" price={30} image={images[5]} />
+                        {Products.map((product) => (
+                            <ProductCard
+                                key={product.id}
+                                name={product.name}
+                                image={product.main_image}
+                                oldPrice={product.oldPrice}
+                                price={product.price}
+                                sale={product.sale}
+                                onClick={() => handleProductClick(product)} />
+                        ))}
                     </div>
                 </section>
             </div>

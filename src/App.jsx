@@ -12,6 +12,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy.jsx'
 import Navbar from './components/Navbar.jsx'
 import Footer from './components/Footer.jsx'
 import ScrollToTop from './components/ScrollToTop.jsx'
+import ProductDescription from './components/ProductDescription.jsx'
 
 function App() {
     const location = useLocation()
@@ -31,6 +32,7 @@ function App() {
                     <Route path='/return-policy' element={<Return />} />
                     <Route path='/faq' element={<Faq />} />
                     <Route path='/privacy-policy' element={<PrivacyPolicy />} />
+                    <Route path='/product/:id' element={<ProductDescription />} />
                 </Routes>
             </AnimatePresence>
 
