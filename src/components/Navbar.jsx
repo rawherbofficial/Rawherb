@@ -61,7 +61,7 @@ function Navbar() {
 
                         {/* Logo */}
                         <Link to="/">
-                            <img src="/logo.webp" alt="Rawherb" className="w-20" />
+                            <img src="logo.webp" alt="Rawherb" className="w-20" />
                         </Link>
 
                         {/* 🔍 Search */}

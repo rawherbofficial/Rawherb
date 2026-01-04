@@ -36,13 +36,13 @@ function Footer() {
                             <ul className="space-y-3 text-sm w-fit">
                                 <li className="flex items-center gap-2 cursor-pointer hover:text-gray-300 hover:underline">
                                     <a href="https://www.instagram.com/rawherb.official/" target='_blank' rel='noopener noreferrer' className='flex items-center gap-2'>
-                                        <img src="/insta-logo.png" className="w-6" alt="Instagram" />
+                                        <img src="insta-logo.png" className="w-6" alt="Instagram" />
                                         Instagram
                                     </a>
                                 </li>
                                 <li className="flex items-center gap-2 cursor-pointer hover:text-gray-300 hover:underline">
                                     <a href="https://www.youtube.com/@rawherbofficial" target='_blank' rel='noopener noreferrer' className='flex items-center gap-2'>
-                                        <img src="/youtube-logo.png" className="w-6" alt="Youtube" />
+                                        <img src="youtube-logo.png" className="w-6" alt="Youtube" />
                                         YouTube
                                     </a>
                                 </li>
@@ -88,7 +88,7 @@ function Footer() {
                             <ul className="space-y-3 text-sm w-fit">
                                 <li className="flex items-center gap-2 cursor-pointer hover:text-gray-300 hover:underline">
                                     <a href="tel:+917599951606" className='flex items-center gap-2'>
-                                        <img src="/phone.png" alt="Phone" className='w-4' />
+                                        <img src="phone.png" alt="Phone" className='w-4' />
                                         +91 7599951606
                                     </a>
                                 </li>
@@ -97,13 +97,13 @@ function Footer() {
                                 </li>
                                 <li className="flex items-center gap-2 cursor-pointer hover:text-gray-300 hover:underline">
                                     <a href="mailto:support@rawherb.co.in" className='flex items-center gap-2'>
-                                        <img src="/msg.png" alt="Mail" className='w-4' />
+                                        <img src="msg.png" alt="Mail" className='w-4' />
                                         support@rawherb.co.in
                                     </a>
                                 </li>
                                 <li className="flex items-center gap-2 w-fit cursor-pointer hover:text-gray-300 hover:underline">
                                     <a href="https://wa.me/917599951606" target='_blank' rel='noopener noreferrer' className='flex items-center gap-2'>
-                                        <img src="/whatsapp-logo.png" alt="WhatsApp" className='w-4' />
+                                        <img src="whatsapp-logo.png" alt="WhatsApp" className='w-4' />
                                         WhatsApp
                                     </a>
                                 </li>

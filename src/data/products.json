@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Ashwagandha Powder 100g",
-        "image": "/img.jpg",
+        "image": "img.jpg",
         "price": 205,
         "oldPrice": 399,
         "sale": true
@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Rawherb Flax Seeds 400g",
-        "image": "/img.jpg",
+        "image": "img.jpg",
         "price": 185,
         "oldPrice": 299,
         "sale": true
@@ -18,7 +18,7 @@
     {
         "id": 3,
         "name": "Rawherb Gokshura Powder 100g",
-        "image": "/img.jpg",
+        "image": "img.jpg",
         "price": 179,
         "oldPrice": 299,
         "sale": true
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Rawherb Organic Chia Seeds 400g",
-        "image": "/img.jpg",
+        "image": "img.jpg",
         "price": 269,
         "sale": false
     }

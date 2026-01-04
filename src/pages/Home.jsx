@@ -5,12 +5,12 @@ import ProductCard from '../components/ProductCard'
 import '../App.css'
 
 const images = [
-    "/banner.webp",
-    "/banner2.webp",
-    "/banner.webp",
-    "/banner2.webp",
-    "/banner.webp",
-    "/img.jpg"
+    "banner.webp",
+    "banner2.webp",
+    "banner.webp",
+    "banner2.webp",
+    "banner.webp",
+    "img.jpg"
 ]
 
 function Home() {
