@@ -71,11 +71,7 @@ function Home() {
                         {Products.map((product) => (
                             <ProductCard
                                 key={product.id}
-                                name={product.name}
-                                image={product.main_image}
-                                oldPrice={product.oldPrice}
-                                price={product.price}
-                                sale={product.sale}
+                                {...product}
                                 onClick={() => handleProductClick(product)} />
                         ))}
                     </div>

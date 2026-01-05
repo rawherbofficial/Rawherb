@@ -23,11 +23,21 @@ function ImageCarousel({ images }) {
                     ᐊ
                 </button>
 
-                <img
-                    src={images[current]}
-                    alt="product"
-                    className="max-h-96 object-contain"
-                />
+                <div className="relative w-full h-96 overflow-hidden">
+                    {images.map((img, index) => (
+                        <img
+                            key={index}
+                            src={img}
+                            alt="carousel"
+                            className={`
+        absolute inset-0 w-full h-full object-contain
+        transition-opacity duration-1000 ease-in-out
+        ${index === current ? "opacity-100" : "opacity-0"}
+      `}
+                        />
+                    ))}
+                </div>
+
 
                 <button
                     onClick={next}

@@ -1,10 +1,11 @@
-import { useParams } from "react-router-dom"
+import { useParams, useNavigate } from "react-router-dom"
 import Products from "../data/products.json"
 import PageWrapper from "../components/PageWrapper"
 import ImageCarousel from "./ImageCarousel"
 
 function ProductDescription() {
     const { id } = useParams()
+    const navigate = useNavigate()
 
     const product = Products.find(p => p.id === Number(id))
 
@@ -16,6 +17,10 @@ function ProductDescription() {
                 </div>
             </PageWrapper>
         )
+    }
+
+    const handleBackClick = () => {
+        navigate(-1)
     }
 
     return (
@@ -52,8 +57,8 @@ function ProductDescription() {
                     </div>
 
                     {/* Badges */}
-                    <div className="mt-4 flex flex-wrap gap-2 font-semibold">
-                        {product.badges.map((badge, i) => (
+                    <div className="my-2 flex flex-wrap gap-2 font-semibold">
+                        {product.badges?.map((badge, i) => (
                             <span
                                 key={i}
                                 className="text-md bg-green-100 text-dark-green px-3 py-1 rounded-full"
@@ -64,7 +69,7 @@ function ProductDescription() {
                     </div>
 
                     {/* Highlights */}
-                    <div className="mt-4 flex flex-wrap gap-2 font-semibold text-dark-green/90 text-lg py-3">
+                    <div className="mt-2 flex flex-wrap gap-2 font-semibold text-dark-green/90 text-lg py-3">
                         {product.highlights}
                     </div>
 
@@ -78,9 +83,17 @@ function ProductDescription() {
                         </ul>
 
                     </div>
-
-
                 </div>
+            </div>
+            <div className="flex justify-center items-center">
+                <button onClick={handleBackClick} className="relative inline-flex items-center justify-start px-12 py-3 overflow-hidden text-lg font-medium text-dark-green border-2 border-dark-green rounded-full hover:text-white group hover:bg-gray-50 hover:cursor-pointer">
+                    <span className="absolute left-0 block w-full h-0 transition-all bg-dark-green opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+                    <span className="absolute left-2 flex items-center justify-center w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                        <svg className="w-5 h-5 rotate-180 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+                    </span>
+                    <span className="relative">Go Back</span>
+                </button>
+
             </div>
         </PageWrapper>
     )

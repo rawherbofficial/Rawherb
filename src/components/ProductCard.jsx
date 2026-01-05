@@ -1,4 +1,4 @@
-function ProductCard({ name, image, price, oldPrice, sale, onClick }) {
+function ProductCard({ name, main_image, price, oldPrice, sale, onClick }) {
     return (
         <div onClick={onClick} className="relative h-90 w-64 border-5 p-2 border-dark-green rounded-xl bg-white cursor-pointer hover:scale-105 transition-transform">
             <div className="shadow-lg/80 rounded-lg">
@@ -12,7 +12,7 @@ function ProductCard({ name, image, price, oldPrice, sale, onClick }) {
                 {/* Image */}
                 <div className="h-56 flex items-center justify-center">
                     <img
-                        src={image}
+                        src={main_image}
                         alt={name}
                         className="max-h-full object-contain"
                     />
@@ -21,7 +21,7 @@ function ProductCard({ name, image, price, oldPrice, sale, onClick }) {
 
             <div className="p-2">
                 {/* Name */}
-                <h3 className="mt-4 text-sm font-medium text-dark-green text-center">
+                <h3 className="mt-4 text-md font-medium text-dark-green text-center">
                     {name}
                 </h3>
 

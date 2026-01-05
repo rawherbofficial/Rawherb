@@ -12,7 +12,7 @@
             "ashwagandha/6.webp"
         ],
         "price": "205.00",
-        "oldPrice": "399",
+        "oldPrice": "399.00",
         "sale": true,
         "description": [
             "Recharge Your Body & Mind with Ancient Ayurvedic Wisdom",
@@ -36,106 +36,236 @@
     },
     {
         "id": 2,
-        "name": "Rawherb Flax Seeds 400g",
-        "main_image": "ashwagandha/1.webp",
+        "name": "Raw Flax Seeds 400g",
+        "main_image": "flax/1.webp",
         "images": [
-            "ashwagandha/1.webp",
-            "ashwagandha/2.webp",
-            "ashwagandha/3.webp",
-            "ashwagandha/4.webp",
-            "ashwagandha/5.webp",
-            "ashwagandha/6.webp"
+            "flax/1.webp",
+            "flax/2.webp",
+            "flax/3.webp"
         ],
-        "price": "185",
-        "oldPrice": "299",
+        "price": "185.00",
+        "oldPrice": "299.00",
         "sale": true,
         "description": [
-            "Recharge Your Body & Mind with Ancient Ayurvedic Wisdom",
-            "Our Ashwagandha Powder is made from premium-grade, sun-dried ashwagandha roots, finely ground to preserve all their adaptogenic properties.",
-            "Ashwagandha (Withania somnifera) is one of the most powerful herbs in Ayurveda, known for reducing stress, boosting energy, improving mental focus, and enhancing physical strength.",
-            "Whether you're an athlete, working professional, or simply someone seeking natural wellness, this herb is your go-to daily rejuvenator.",
-            "Mix 1 tsp with warm water, milk, honey, or in smoothies and consume regularly for visible benefits."
+            "Fuel your body with the goodness of nature with RAWHERB Premium Raw Flax Seeds – a powerhouse of plant-based nutrition.",
+            "Packed with Omega-3 fatty acids, dietary fibre, and plant protein, our flax seeds are carefully sourced and hygienically packed to retain maximum freshness and purity.",
+            "These versatile seeds help support weight management, improve digestion, and promote healthy hair and glowing skin.",
+            "Perfect for daily use, flax seeds easily fit into any diet and lifestyle.",
+            "Sprinkle them on smoothies, salads, yogurt, cereals, or use them in baking and cooking for a healthy nutritional upgrade."
         ],
         "badges": [
-            "✅ FSSAI Certified",
+            "✅ Lab Tested",
             "✅ Chemical-Free",
-            "✅ Vegan",
+            "✅ 100% Natural",
             "✅ Made in India"
         ],
-        "highlights": "Pure & Natural Root Powder | Stress Relief | Energy & Immunity Booster | No Additives & Preservatives",
+        "highlights": "Rich in Omega-3 | High Fibre Superfood | Supports Digestion & Weight Management | No Additives or Preservatives",
         "benefits": [
-            "Reduces Stress & Anxiety – A powerful adaptogen that helps balance cortisol and promote calmness.",
-            "Boosts Energy & Stamina – Enhances physical strength and endurance naturally.",
-            "Supports Immunity & Vitality – Strengthens immune system and supports overall wellness."
+            "Supports Heart Health – Rich in Omega-3 fatty acids that help maintain healthy cholesterol levels.",
+            "Aids Digestion & Weight Management – High fibre content promotes gut health and keeps you feeling fuller for longer.",
+            "Enhances Hair & Skin Health – Nourishes from within with essential nutrients and antioxidants."
         ]
     },
     {
         "id": 3,
         "name": "Rawherb Gokshura Powder 100g",
-        "main_image": "ashwagandha/1.webp",
+        "main_image": "gokshura/1.JPEG",
         "images": [
-            "ashwagandha/1.webp",
-            "ashwagandha/2.webp",
-            "ashwagandha/3.webp",
-            "ashwagandha/4.webp",
-            "ashwagandha/5.webp",
-            "ashwagandha/6.webp"
+            "gokshura/1.JPEG",
+            "gokshura/2.JPEG"
         ],
-        "price": "179",
-        "oldPrice": "299",
+        "price": "179.00",
+        "oldPrice": "299.00",
         "sale": true,
         "description": [
-            "Recharge Your Body & Mind with Ancient Ayurvedic Wisdom",
-            "Our Ashwagandha Powder is made from premium-grade, sun-dried ashwagandha roots, finely ground to preserve all their adaptogenic properties.",
-            "Ashwagandha (Withania somnifera) is one of the most powerful herbs in Ayurveda, known for reducing stress, boosting energy, improving mental focus, and enhancing physical strength.",
-            "Whether you're an athlete, working professional, or simply someone seeking natural wellness, this herb is your go-to daily rejuvenator.",
-            "Mix 1 tsp with warm water, milk, honey, or in smoothies and consume regularly for visible benefits."
+            "Rawherb Gokshura Powder is a 100% natural and pure herbal supplement made from the finest Tribulus Terrestris — an ancient Ayurvedic herb known for promoting vitality, stamina, and energy.",
+            "Traditionally used in Ayurveda as a natural rejuvenator and strength enhancer, Gokshura supports muscle health, hormonal balance, and endurance in both men and women.",
+            "Our Gokshura powder is sun-dried, finely ground, and chemical-free, preserving its full potency and nutrients.",
+            "Regular use may help improve physical strength, boost performance, and support overall energy levels.",
+            "Ideal for athletes, active individuals, and anyone seeking to enhance natural vitality."
         ],
         "badges": [
             "✅ FSSAI Certified",
+            "✅ 100% Natural",
             "✅ Chemical-Free",
-            "✅ Vegan",
             "✅ Made in India"
         ],
-        "highlights": "Pure & Natural Root Powder | Stress Relief | Energy & Immunity Booster | No Additives & Preservatives",
+        "highlights": "Pure Tribulus Terrestris | Energy & Stamina Booster | Supports Muscle & Hormonal Health | No Additives or Preservatives",
         "benefits": [
-            "Reduces Stress & Anxiety – A powerful adaptogen that helps balance cortisol and promote calmness.",
-            "Boosts Energy & Stamina – Enhances physical strength and endurance naturally.",
-            "Supports Immunity & Vitality – Strengthens immune system and supports overall wellness."
+            "Boosts Energy & Endurance – Helps promote natural stamina and physical performance.",
+            "Supports Vitality & Hormonal Balance – Traditionally used to support male vitality and overall hormonal health.",
+            "Aids Muscle Strength & Recovery – Supports muscle growth and post-workout recovery naturally.",
+            "Supports Urinary & Kidney Health – Helps maintain healthy urinary system function."
         ]
     },
     {
         "id": 4,
         "name": "Rawherb Organic Chia Seeds 400g",
-        "main_image": "ashwagandha/1.webp",
+        "main_image": "chia/1.webp",
         "images": [
-            "ashwagandha/1.webp",
-            "ashwagandha/2.webp",
-            "ashwagandha/3.webp",
-            "ashwagandha/4.webp",
-            "ashwagandha/5.webp",
-            "ashwagandha/6.webp"
+            "chia/1.webp",
+            "chia/2.webp",
+            "chia/3.webp",
+            "chia/4.webp",
+            "chia/5.webp"
         ],
-        "price": "269",
+        "price": "269.00",
         "sale": false,
         "description": [
-            "Recharge Your Body & Mind with Ancient Ayurvedic Wisdom",
-            "Our Ashwagandha Powder is made from premium-grade, sun-dried ashwagandha roots, finely ground to preserve all their adaptogenic properties.",
-            "Ashwagandha (Withania somnifera) is one of the most powerful herbs in Ayurveda, known for reducing stress, boosting energy, improving mental focus, and enhancing physical strength.",
-            "Whether you're an athlete, working professional, or simply someone seeking natural wellness, this herb is your go-to daily rejuvenator.",
-            "Mix 1 tsp with warm water, milk, honey, or in smoothies and consume regularly for visible benefits."
+            "Unlock the power of nature with RAWHERB Chia Seeds – a nutrient-dense superfood sourced from trusted farms.",
+            "Packed with plant-based protein, dietary fiber, and essential Omega-3 fatty acids, these seeds help boost daily nutrition naturally.",
+            "Completely raw, unprocessed, and gluten-free, chia seeds support heart health, digestion, and sustained energy.",
+            "Their mild taste and crunchy texture make them easy to add to smoothies, overnight oats, salads, and baking recipes.",
+            "Perfect for health-conscious individuals following keto, vegan, or plant-based diets."
         ],
         "badges": [
-            "✅ FSSAI Certified",
-            "✅ Chemical-Free",
+            "✅ 100% Natural",
+            "✅ Preservative-Free",
+            "✅ Gluten-Free",
+            "✅ Made in India"
+        ],
+        "highlights": "Rich in Omega-3 & Fibre | Plant-Based Protein | Supports Digestion & Heart Health | Raw & Unprocessed",
+        "benefits": [
+            "Supports Heart Health – Omega-3 fatty acids help maintain healthy cholesterol levels.",
+            "Aids Digestion & Weight Management – High fiber content promotes gut health and keeps you fuller for longer.",
+            "Boosts Energy & Nutrition – Provides sustained energy with essential nutrients.",
+            "Ideal for Special Diets – Suitable for keto, vegan, and plant-based lifestyles."
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Rawherb Organic Moringa Powder 200g",
+        "main_image": "moringa/1.JPEG",
+        "images": [
+            "moringa/1.JPEG",
+            "moringa/2.png",
+            "moringa/3.png",
+            "moringa/4.png",
+            "moringa/5.JPEG",
+            "moringa/6.JPEG"
+        ],
+        "oldPrice": "349.00",
+        "price": "235.00",
+        "sale": true,
+        "description": [
+            "RAWHERB Moringa Powder is a natural substitute for multivitamin tablets, made from shade-dried Moringa oleifera leaves — known as the “Miracle Tree” for its exceptional nutrient profile.",
+            "Packed with plant-based vitamins, minerals, protein, and antioxidants, it is a powerful green superfood that supports overall daily wellness.",
+            "Regular use helps boost immunity, improve energy and stamina, promote healthy digestion, and support natural detox and weight management.",
+            "Our moringa powder is carefully processed to retain maximum nutrients without any chemicals or additives.",
+            "An ideal daily supplement for anyone seeking clean, plant-based nutrition."
+        ],
+        "badges": [
+            "✅ 100% Pure & Natural",
+            "✅ Lab Tested",
             "✅ Vegan",
             "✅ Made in India"
         ],
-        "highlights": "Pure & Natural Root Powder | Stress Relief | Energy & Immunity Booster | No Additives & Preservatives",
+        "highlights": "Superfood for Immunity & Energy | Natural Multivitamin Alternative | Supports Detox & Digestion | No Additives or Fillers",
         "benefits": [
-            "Reduces Stress & Anxiety – A powerful adaptogen that helps balance cortisol and promote calmness.",
-            "Boosts Energy & Stamina – Enhances physical strength and endurance naturally.",
-            "Supports Immunity & Vitality – Strengthens immune system and supports overall wellness."
+            "Plant-Based Nutrition – Rich in Vitamin A, Vitamin C, Calcium, and plant protein.",
+            "Boosts Energy Naturally – High in iron and B-vitamins to support stamina and vitality.",
+            "Supports Immunity & Digestion – Packed with antioxidants and dietary fiber.",
+            "Natural Detox & Cleanse – Helps support metabolism and gut health."
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Rawherb Premium Shatavari Powder 100g",
+        "main_image": "shatavari/1.JPEG",
+        "images": [
+            "shatavari/1.JPEG",
+            "shatavari/2.JPEG"
+        ],
+        "oldPrice": "349.00",
+        "price": "235.00",
+        "sale": true,
+        "description": [
+            "Nurture your wellness naturally with Rawherb Shatavari Powder, made from carefully selected Asparagus racemosus roots.",
+            "Gently sun-dried and finely milled to preserve its natural goodness, shatavari is traditionally valued in Ayurveda as a women’s rejuvenating herb.",
+            "It is known for supporting hormonal balance, vitality, and overall reproductive wellness.",
+            "Rawherb Shatavari Powder is 100% pure, plant-based, and free from additives, preservatives, or artificial colours.",
+            "Easily mix with warm milk, smoothies, or herbal tea for daily nourishment."
+        ],
+        "badges": [
+            "✅ 100% Pure & Natural",
+            "✅ Vegan & Plant-Based",
+            "✅ Gluten-Free",
+            "✅ Made in India"
+        ],
+        "highlights": "Pure Asparagus racemosus | Supports Women’s Wellness | Hormonal Balance & Vitality | No Additives or Preservatives",
+        "benefits": [
+            "Supports Women’s Wellness – Traditionally used to help maintain hormonal balance and reproductive health.",
+            "Boosts Vitality & Stamina – Helps support overall strength, endurance, and energy levels.",
+            "Clean & Plant-Based Nutrition – Free from additives, artificial colours, flavours, or preservatives.",
+            "Easy Daily Use – Mix ½–1 tsp with milk, smoothies, or herbal tea for daily nourishment."
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Rawherb Rosemary Leaves 100g",
+        "main_image": "rose/1.JPEG",
+        "images": [
+            "rose/1.JPEG",
+            "rose/2.png",
+            "rose/3.JPEG",
+            "rose/4.png",
+            "rose/5.png",
+            "rose/6.JPEG"
+        ],
+        "oldPrice": "250.00",
+        "price": "155.00",
+        "sale": true,
+        "description": [
+            "RAWHERB Rosemary Leaves are carefully dried to preserve their natural aroma, flavor, and essential oils, sourced from premium quality rosemary plants.",
+            "Traditionally used for hair care, rosemary helps promote scalp health, strengthen hair roots, and reduce dandruff.",
+            "These versatile leaves are suitable for both culinary and wellness uses.",
+            "Add them to soups, stews, roasted vegetables, meats, marinades, or brew into herbal teas for a refreshing, earthy flavor.",
+            "100% natural and free from additives, preservatives, and artificial colors — perfect for your kitchen or herbal pantry."
+        ],
+        "badges": [
+            "✅ FSSAI Certified",
+            "✅ 100% Pure & Natural",
+            "✅ Chemical-Free",
+            "✅ Made in India"
+        ],
+        "highlights": "Premium Sun-Dried Leaves | Cooking & Hair Care Use | Aromatic Culinary Herb | No Additives or Preservatives",
+        "benefits": [
+            "Supports Hair & Scalp Health – Traditionally used in DIY hair oils and rinses to help reduce dandruff, improve circulation, and strengthen roots.",
+            "Dual Purpose – Cooking & Hair Care – Ideal for enhancing food flavor or preparing hair rinses and infused oils.",
+            "Aromatic Culinary Herb – Adds earthy, pine-like flavor to soups, stews, roasts, marinades, and herbal teas.",
+            "Hygienically Packed for Freshness – Resealable pouch preserves aroma, flavor, and quality for long-term use."
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Musli Powder 100gm",
+        "main_image": "musli/1.jpeg",
+        "images": [
+            "musli/1.jpeg",
+            "musli/2.JPEG"
+        ],
+        "oldPrice": "499.00",
+        "price": "340.00",
+        "sale": true,
+        "description": [
+            "RAWHERB Safed Musli Powder (Chlorophytum borivilianum) is a 100% natural and pure herbal supplement crafted to support energy, stamina, and overall vitality.",
+            "Known in Ayurveda as a powerful adaptogen, Safed Musli is traditionally used as a natural rejuvenator that helps restore strength and wellness.",
+            "Sourced from carefully selected roots, our Safed Musli powder is free from preservatives, additives, and artificial flavors.",
+            "Naturally vegan and gluten-free, it fits perfectly into modern wellness and lifestyle routines.",
+            "An ideal daily supplement for those seeking improved stamina, immunity, and overall well-being."
+        ],
+        "badges": [
+            "✅ 100% Pure & Natural",
+            "✅ Ayurvedic & Vegan",
+            "✅ Chemical-Free",
+            "✅ Made in India"
+        ],
+        "highlights": "Pure Safed Musli Root | Energy & Stamina Booster | Supports Vitality & Wellness | No Additives or Preservatives",
+        "benefits": [
+            "Supports Energy & Stamina – Traditionally used as a natural strength and endurance booster.",
+            "Promotes Vitality & Rejuvenation – Helps restore physical strength and overall wellness.",
+            "Clean & Herbal Supplement – Free from fillers, chemicals, and artificial flavors.",
+            "Suitable for Daily Use – Ayurvedic, vegan, and suitable for both men and women."
         ]
     }
 ]
