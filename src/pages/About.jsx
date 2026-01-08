@@ -23,7 +23,7 @@ function About() {
                             </p>
                         </div>
                         <h1 className="w-full my-2 mb-5 text-2xl text-left">🌿 Our Journey</h1>
-                        <img src="plant.webp" alt="A growing plant" className="w-64 mb-5 rounded-xl border-2 border-dark-green" />
+                        <img src="plant.webp" alt="A growing plant" className="w-64 mb-5 rounded-xl border-3 border-dark-green" />
                         <div>
                             <p>
                                 What started as a small idea in our hometown has grown into a
@@ -37,7 +37,7 @@ function About() {
                             </ul>
                         </div>
                         <h1 className="w-full my-2 mb-5 text-2xl text-left">🌱 Our Mission</h1>
-                        <img src="labtube.webp" alt="Herb with medicines" className="w-64 mb-5 rounded-xl border-2 border-dark-green" />
+                        <img src="labtube.webp" alt="Herb with medicines" className="w-64 mb-5 rounded-xl border-3 border-dark-green" />
                         <div>
                             <p>
                                 Our mission is simple — to provide natural, plant-based substitutes that support your health without compromise.
@@ -60,7 +60,7 @@ function About() {
                             </ul>
                         </div>
                         <h1 className="w-full my-2 mb-5 text-2xl text-left">🤝 Join the Movement</h1>
-                        <img src="sustainable.webp" alt="A growing plant" className="w-64 mb-5 rounded-xl border-2 border-dark-green" />
+                        <img src="sustainable.webp" alt="A growing plant" className="w-64 mb-5 rounded-xl border-3 border-dark-green" />
                         <div>
                             <p>
                                 Join us on a journey to rediscover traditional wisdom backed by modern science.

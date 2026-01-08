@@ -9,11 +9,7 @@ import ProductCard from '../components/ProductCard'
 
 const images = [
     "banner.webp",
-    "banner2.webp",
-    "banner.webp",
-    "banner2.webp",
-    "banner.webp",
-    "img.jpg"
+    "banner2.webp"
 ]
 
 function Home() {

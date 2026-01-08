@@ -23,6 +23,14 @@ function ProductDescription() {
         navigate(-1)
     }
 
+    const handleBuyNowClick = () => {
+        const phoneNumber = "917599951606"
+        const message = "Hello, I want to buy:\n" + "Product: " + product.name + "\nPrice: " + product.price
+
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+        window.open(url, "_blank")
+    }
+
     return (
         <PageWrapper>
             <div className="max-w-5xl mx-auto px-4 py-10 grid md:grid-cols-2 gap-10">
@@ -86,14 +94,21 @@ function ProductDescription() {
                 </div>
             </div>
             <div className="flex justify-center items-center">
-                <button onClick={handleBackClick} className="relative inline-flex items-center justify-start px-12 py-3 overflow-hidden text-lg font-medium text-dark-green border-2 border-dark-green rounded-full hover:text-white group hover:bg-gray-50 hover:cursor-pointer">
+                <button onClick={handleBackClick} className="relative inline-flex items-center justify-start px-12 py-3 overflow-hidden text-lg font-medium text-dark-green border-2 border-dark-green rounded-full hover:text-white group hover:bg-gray-50 hover:cursor-pointer m-2">
                     <span className="absolute left-0 block w-full h-0 transition-all bg-dark-green opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
                     <span className="absolute left-2 flex items-center justify-center w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
                         <svg className="w-5 h-5 rotate-180 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
                     </span>
                     <span className="relative">Go Back</span>
                 </button>
-
+                <button onClick={handleBuyNowClick} className="relative inline-flex items-center justify-start px-12 py-3 overflow-hidden text-lg font-medium text-dark-green border-2 border-dark-green rounded-full hover:text-white group hover:bg-gray-50 hover:cursor-pointer m-2">
+                    <span className="absolute left-0 block w-full h-0 transition-all bg-dark-green opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+                    <span className="absolute left-2 flex items-center justify-center w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+                        <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
+                            d="M3 3h2l.4 2M7 13h10l4-8H5.4 M7 13L5.4 5 M9 21a1 1 0 100-2 1 1 0 000 2 m8 0a1 1 0 100-2 1 1 0 000 2"></path></svg>
+                    </span>
+                    <span className="relative">Buy Now</span>
+                </button>
             </div>
         </PageWrapper>
     )
