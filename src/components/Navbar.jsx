@@ -18,8 +18,9 @@ function Navbar() {
     const handleSelect = (product) => {
         setQuery("")
         setShowResults(false)
-        navigate(`/products?q=${product.name}`)
+        // navigate(`/products?q=${product.name}`)
         // later → /product/${product.id}
+        navigate(`/product/${product.id}`)
     }
 
     useEffect(() => {
@@ -112,7 +113,11 @@ function Navbar() {
 
                                     {filteredProducts.length > 0 && (
                                         <button
-                                            onClick={() => navigate(`/products?q=${query}`)}
+                                            onClick={() => {
+                                                setQuery("")
+                                                return navigate(`/products`)
+                                            }
+                                            }
                                             className="w-full text-sm text-center py-2 text-dark-green hover:underline"
                                         >
                                             View all results
