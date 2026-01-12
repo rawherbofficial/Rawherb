@@ -75,15 +75,15 @@ function Navbar() {
                                     setShowResults(true)
                                 }}
                                 onFocus={() => setShowResults(true)}
-                                className="border border-dark-green rounded-full px-4 py-2 w-full text-sm"
+                                className="border border-dark-green text-dark-green rounded-full px-4 py-2 w-full text-sm focus:outline-dark-green"
                             />
 
                             {/* Dropdown */}
                             {showResults && query && (
-                                <div className="absolute top-full mt-2 w-full bg-white border rounded-lg shadow-lg z-50">
+                                <div className="absolute top-full mt-2 w-full bg-white border border-dark-green rounded-lg shadow-lg z-50">
 
                                     {filteredProducts.length === 0 && (
-                                        <div className="px-4 py-3 text-sm text-gray-500">
+                                        <div className="px-4 py-3 text-sm text-dark-green">
                                             No products found
                                         </div>
                                     )}

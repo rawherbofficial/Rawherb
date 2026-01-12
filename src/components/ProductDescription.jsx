@@ -2,12 +2,19 @@ import { useParams, useNavigate } from "react-router-dom"
 import Products from "../data/products.json"
 import PageWrapper from "../components/PageWrapper"
 import ImageCarousel from "./ImageCarousel"
+import { useState } from "react"
 
 function ProductDescription() {
     const { id } = useParams()
     const navigate = useNavigate()
+    const [coupon, setCoupon] = useState("")
+    const [discount, setDiscount] = useState(0)
+    const [message, setMessage] = useState("")
 
     const product = Products.find(p => p.id === Number(id))
+
+    const COUPON_PRODUCT_ID = 9   // <-- Bahubali product id
+    const isCouponAllowed = product?.id === COUPON_PRODUCT_ID
 
     if (!product) {
         return (
@@ -24,11 +31,52 @@ function ProductDescription() {
     }
 
     const handleBuyNowClick = () => {
-        const phoneNumber = "917599951606"
-        const message = "Hello, I want to buy:\n" + "Product: " + product.name + "\nPrice: " + product.price
+        if (coupon && discount === 0) {
+            alert("Invalid coupon applied")
+            return
+        }
 
-        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`
+        const phoneNumber = "917599951606"
+
+        const finalPrice = product.price - discount
+
+        let whatsappMessage =
+            "Hello, I want to buy:\n" +
+            `Product: ${product.name}\n` +
+            `Original Price: ₹${product.price}\n`
+
+        if (discount > 0) {
+            whatsappMessage +=
+                `Coupon Applied: BAHUBALI5\n` +
+                `Discount: -₹${discount}\n`
+        }
+
+        whatsappMessage += `Final Price: ₹${finalPrice}`
+
+        const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(whatsappMessage)}`
         window.open(url, "_blank")
+    }
+
+
+    const applyCoupon = () => {
+        if (!isCouponAllowed) {
+            setDiscount(0)
+            setMessage("❌ Coupon not applicable for this product")
+            return
+        }
+
+        const code = coupon.toUpperCase()
+
+        if (code !== "BAHUBALI5") {
+            setDiscount(0)
+            setMessage("❌ Invalid coupon code")
+            return
+        }
+
+        const discountAmount = (product.price * 5) / 100
+
+        setDiscount(discountAmount)
+        setMessage(`✅ 5% discount applied! You saved ₹${discountAmount}`)
     }
 
     return (
@@ -55,6 +103,58 @@ function ProductDescription() {
                         <span className="text-2xl text-dark-green">
                             Rs. {product.price}
                         </span>
+
+                        {isCouponAllowed && (
+                            <span className="ml-3 text-sm bg-green-100 text-dark-green px-3 py-1 rounded-full">
+                                Use BAHUBALI5 & save 5%
+                            </span>
+                        )}
+
+
+                        {isCouponAllowed && (
+                            <section className="max-w-7xl mx-auto px-4 py-6 text-dark-green">
+                                <h2 className="text-lg font-semibold mb-3">
+                                    Apply Coupon
+                                </h2>
+
+                                <div className="flex gap-3 max-w-md">
+                                    <input
+                                        type="text"
+                                        placeholder="Enter coupon code"
+                                        value={coupon}
+                                        onChange={(e) => setCoupon(e.target.value)}
+                                        className="flex-1 border border-dark-green px-3 py-2 rounded-md focus:outline-dark-green"
+                                    />
+
+                                    <button
+                                        onClick={applyCoupon}
+                                        className="bg-dark-green text-white px-4 py-2 rounded-md hover:opacity-90"
+                                    >
+                                        Apply
+                                    </button>
+                                </div>
+
+                                {message && (
+                                    <p className="mt-2 text-sm font-medium">
+                                        {message}
+                                    </p>
+                                )}
+
+                                {coupon && (
+                                    <div className="mt-4 font-semibold">
+                                        <p>Subtotal: ₹{product.price}</p>
+                                        <p>Discount: -₹{discount}</p>
+                                        <p className="text-lg">
+                                            Total: ₹{product.price - discount}
+                                        </p>
+                                    </div>
+                                )}
+
+
+                            </section>
+                        )}
+
+
                     </div>
 
                     {/* Description */}
