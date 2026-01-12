@@ -10,11 +10,11 @@ function ProductCard({ name, main_image, price, oldPrice, sale, onClick }) {
                 )}
 
                 {/* Image */}
-                <div className="h-56 flex items-center justify-center">
+                <div className="h-53 flex items-center justify-center">
                     <img
                         src={main_image}
                         alt={name}
-                        className="max-h-full object-contain"
+                        className="max-h-full object-contain rounded-2xl"
                     />
                 </div>
             </div>

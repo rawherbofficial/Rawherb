@@ -267,5 +267,36 @@
             "Clean & Herbal Supplement – Free from fillers, chemicals, and artificial flavors.",
             "Suitable for Daily Use – Ayurvedic, vegan, and suitable for both men and women."
         ]
+    },
+    {
+        "id": 9,
+        "name": "Rawherb Bahubali Combo (Ashwagandha + Safed Musli + Shatavari + Gokshura)",
+        "main_image": "combo/1.jpg",
+        "images": [
+            "combo/1.jpg"
+        ],
+        "price": "799.00",
+        "oldPrice": "919.00",
+        "sale": true,
+        "description": [
+            "RAWHERB Ayurvedic Vitality Combo brings together four powerful and time-tested Ayurvedic herbs — Ashwagandha, Safed Musli, Shatavari, and Gokshura — carefully curated to support complete daily wellness.",
+            "Each herb is traditionally known for enhancing strength, stamina, vitality, hormonal balance, and overall rejuvenation for both men and women.",
+            "Made from premium-quality roots and herbs, these powders are sun-dried or shade-dried and finely milled to preserve their natural potency and nutrients.",
+            "This combo offers a clean, plant-based alternative to synthetic supplements and multivitamins.",
+            "Ideal for people looking to boost energy, manage stress, support reproductive health, and improve overall immunity and strength naturally."
+        ],
+        "badges": [
+            "✅ 100% Pure & Natural",
+            "✅ Ayurvedic & Plant-Based",
+            "✅ Chemical-Free",
+            "✅ Made in India"
+        ],
+        "highlights": "Complete Ayurvedic Wellness Combo | Energy, Strength & Vitality Support | Hormonal Balance & Stress Relief | No Additives or Preservatives",
+        "benefits": [
+            "Boosts Energy & Stamina – Helps improve physical strength, endurance, and daily vitality.",
+            "Supports Hormonal & Reproductive Health – Traditionally used for men’s and women’s wellness.",
+            "Reduces Stress & Promotes Balance – Ashwagandha helps manage stress and supports mental well-being.",
+            "Natural Rejuvenation – Supports immunity, recovery, and overall body wellness."
+        ]
     }
 ]
