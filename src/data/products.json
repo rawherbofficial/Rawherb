@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name": "Ashwagandha Powder 100g",
+        "name": "Rawherb Ashwagandha Powder 100g",
         "main_image": "ashwagandha/1.webp",
         "images": [
             "ashwagandha/1.webp",
@@ -36,13 +36,9 @@
     },
     {
         "id": 2,
-        "name": "Raw Flax Seeds 400g",
+        "name": "Rawherb Raw Flax Seeds 400g",
         "main_image": "flax/1.webp",
-        "images": [
-            "flax/1.webp",
-            "flax/2.webp",
-            "flax/3.webp"
-        ],
+        "images": ["flax/1.webp", "flax/2.webp", "flax/3.webp"],
         "price": "185.00",
         "oldPrice": "299.00",
         "sale": true,
@@ -70,10 +66,7 @@
         "id": 3,
         "name": "Rawherb Gokshura Powder 100g",
         "main_image": "gokshura/1.JPEG",
-        "images": [
-            "gokshura/1.JPEG",
-            "gokshura/2.JPEG"
-        ],
+        "images": ["gokshura/1.JPEG", "gokshura/2.JPEG"],
         "price": "179.00",
         "oldPrice": "299.00",
         "sale": true,
@@ -172,10 +165,7 @@
         "id": 6,
         "name": "Rawherb Premium Shatavari Powder 100g",
         "main_image": "shatavari/1.JPEG",
-        "images": [
-            "shatavari/1.JPEG",
-            "shatavari/2.JPEG"
-        ],
+        "images": ["shatavari/1.JPEG", "shatavari/2.JPEG"],
         "oldPrice": "349.00",
         "price": "235.00",
         "sale": true,
@@ -238,12 +228,9 @@
     },
     {
         "id": 8,
-        "name": "Musli Powder 100gm",
+        "name": "Rawherb Musli Powder 100gm",
         "main_image": "musli/1.jpeg",
-        "images": [
-            "musli/1.jpeg",
-            "musli/2.JPEG"
-        ],
+        "images": ["musli/1.jpeg", "musli/2.JPEG"],
         "oldPrice": "499.00",
         "price": "340.00",
         "sale": true,
@@ -272,9 +259,7 @@
         "id": 9,
         "name": "Rawherb Bahubali Combo (Ashwagandha + Safed Musli + Shatavari + Gokshura)",
         "main_image": "combo/1.jpg",
-        "images": [
-            "combo/1.jpg"
-        ],
+        "images": ["combo/1.jpg"],
         "price": "919.00",
         "sale": true,
         "description": [
@@ -296,6 +281,75 @@
             "Supports Hormonal & Reproductive Health – Traditionally used for men’s and women’s wellness.",
             "Reduces Stress & Promotes Balance – Ashwagandha helps manage stress and supports mental well-being.",
             "Natural Rejuvenation – Supports immunity, recovery, and overall body wellness."
+        ]
+    },
+    {
+        "id": 10,
+        "name": "RAWHERB Gond Katira (Tragacanth Gum) 200g",
+        "main_image": "gondKatira/1.jpg",
+        "images": [
+            "gondKatira/1.jpg",
+            "gondKatira/2.jpg",
+            "gondKatira/3.jpg",
+            "gondKatira/4.jpg",
+            "gondKatira/5.jpg"
+        ],
+        "price": "209.00",
+        "oldPrice": "299.00",
+        "sale": true,
+        "description": [
+            "Rawherb Gond Katira (Tragacanth Gum) is a 100% pure and natural plant resin traditionally used in cooling summer drinks and Ayurvedic recipes.",
+            "When soaked overnight, the premium-quality crystals expand into a soft, jelly-like texture that can be added to nimbu paani, falooda, milkshakes, smoothies, and other refreshing beverages.",
+            "Rich in calcium, magnesium, and soluble dietary fibre, Gond Katira supports daily wellness while acting as a natural body coolant during hot weather.",
+            "Traditionally valued for supporting gut health, joint comfort, and overall hydration, it is also widely used in homemade wellness recipes.",
+            "Our Gond Katira is carefully sourced, hygienically packed, and contains no artificial colours, additives, or preservatives."
+        ],
+        "badges": [
+            "✅ 100% Pure & Natural",
+            "✅ Vegan & Gluten-Free",
+            "✅ No Artificial Colours",
+            "✅ Made in India"
+        ],
+        "highlights": "Premium Tragacanth Gum | Natural Summer Body Coolant | Rich in Calcium & Fibre | No Additives or Preservatives",
+        "benefits": [
+            "Natural Body Coolant – Traditionally consumed during summer to help keep the body cool and refreshed.",
+            "Supports Digestive Health – Rich in soluble dietary fibre that promotes healthy digestion and gut wellness.",
+            "Rich in Calcium & Magnesium – Naturally contains essential minerals that support overall wellness.",
+            "Versatile Daily Use – Perfect for falooda, nimbu paani, milkshakes, smoothies, and other cooling beverages."
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Rawherb Sunflower Seeds 200g",
+        "main_image": "sunflower/1.jpg",
+        "images": [
+            "sunflower/1.jpg",
+            "sunflower/2.jpg",
+            "sunflower/3.jpg",
+            "sunflower/4.jpg"
+        ],
+        "price": "129.00",
+        "oldPrice": "249.00",
+        "sale": true,
+        "description": [
+            "Discover the wholesome goodness of RAWHERB Premium Sunflower Seeds, carefully selected to provide a delicious and nutrient-rich addition to your daily diet.",
+            "With their mild nutty flavor and satisfying crunch, these seeds are naturally rich in plant-based protein, dietary fiber, healthy fats, and essential nutrients.",
+            "Perfect as a healthy snack or a versatile ingredient, they can be enjoyed with salads, smoothies, cereals, yogurt, granola, baked goods, and trail mixes.",
+            "Sunflower seeds are a natural source of Vitamin E, antioxidants, and essential minerals that support a balanced and active lifestyle.",
+            "Hygienically packed to preserve freshness and free from artificial colors, flavors, and preservatives for pure, natural goodness."
+        ],
+        "badges": [
+            "✅ 100% Natural",
+            "✅ Rich in Protein & Fibre",
+            "✅ Vegan Friendly",
+            "✅ Made in India"
+        ],
+        "highlights": "Premium Sunflower Seeds | Rich in Protein, Fibre & Vitamin E | Healthy Everyday Snack | No Additives or Preservatives",
+        "benefits": [
+            "Rich in Plant-Based Nutrition – Naturally packed with protein, dietary fibre, healthy fats, and essential nutrients.",
+            "Supports Overall Wellness – A natural source of Vitamin E, antioxidants, and essential minerals for daily nutrition.",
+            "Healthy & Versatile – Perfect for snacking, salads, smoothies, yogurt, granola, baking, and trail mixes.",
+            "Clean & Natural – Free from artificial colours, flavours, and preservatives, making it suitable for vegetarian and vegan diets."
         ]
     }
 ]
