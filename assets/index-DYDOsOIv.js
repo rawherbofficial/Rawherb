@@ -27,7 +27,7 @@ Please change the parent <Route path="${D}"> to <Route path="${D==="/"?"*":`${D}
                         ${d===i?"border-dark-green":"opacity-60"}`,alt:"thumbnail"},d))})]})}function Sj(){const{id:a}=N1(),i=Ti(),[s,r]=E.useState(""),[c,f]=E.useState(0),[d,y]=E.useState(""),p=Nr.find(O=>O.id===Number(a)),v=p?.id===9;if(!p)return m.jsx(Rn,{children:m.jsx("div",{className:"text-center py-20 text-red-600 font-semibold text-3xl",children:"Product not found"})});const b=()=>{i(-1)},S=()=>{if(s&&c===0){alert("Invalid coupon applied");return}const O="917599951606",z=p.price-c;let D=`Hello,
 I would like to place an order for the following product:
 Product: ${p.name}
-MRP: ₹${p.price}
+MRP: ₹${p?.oldPrice}
 `;c>0&&(D+=`Coupon Applied: BAHUBALI5
 Discount: -₹${c}
 `),D+=`Final Price: ₹${z}
